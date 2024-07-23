@@ -1,0 +1,51 @@
+<!-- #ex_03 یک برنامه جاوا اسکریپت بنویسید تا آدرس وب سایت (صفحه بارگیری) را دریافت کنید.   -->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+
+div {
+    width: 50%;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30vh;
+    background-color: lightgrey;
+    border-radius: 2px;
+}
+
+    </style>
+ 
+ 
+</head>
+
+<body>
+
+    <div>
+
+        <h4> Get The Website URL </h4>
+
+        <button onclick="result()">click me</button>
+
+        <p id="demo"></p>
+
+    </div>
+
+
+    <script>
+
+        function result() {
+            document.getElementById("demo").innerHTML = (document.URL);
+        }
+
+
+    </script>
+
+</body>
+
+</html>

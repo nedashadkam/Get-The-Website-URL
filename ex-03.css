@@ -1,0 +1,9 @@
+div {
+    width: 50%;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30vh;
+    background-color: lightgrey;
+    border-radius: 2px;
+}
